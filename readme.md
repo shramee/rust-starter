@@ -2,9 +2,7 @@
 
 ## Setup
 
-1. Install Rust - https://rustup.rs/
-
-2. To initiaite the project, generate these directories.
+1. Set up these directories.
 
 ```sh
 mkdir t1-get-started
@@ -21,6 +19,7 @@ Get Started on Rust
 ### Installation
 
 -   Go to https://rustup.rs/ to install rust.
+-   Install [rust-analyser](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
 
 ### Write Your First Rust Program
 
@@ -46,14 +45,14 @@ Basic Rust Programming Concepts
 ```rust
 fn main() {
     // Immutable
-	let x = 5;
+    let x = 5;
 
-	// Mutable
+    // Mutable
     let mut y = 10;
     y = 20;
 
-	// Shadowing immutable
-	let x = 5;
+    // Shadowing immutable
+    let x = 5;
 }
 ```
 
